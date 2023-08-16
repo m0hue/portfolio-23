@@ -14,21 +14,21 @@ const Navbar = () => {
     <div className='fixed w-full h-[4rem] shadow-xl z-[100]'>
         <div className='flex md:justify-center items-center w-full h-full px-2 2xl:px-16'>
             <div>
-                <ul className='gradient hidden md:flex'>
+                <ul className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-yellow-500 bg-clip-text text-transparent font-black hidden md:flex'>
                     <Link href='/'>
-                        <li className='navbar_text'>About</li>
+                        <li className='mx-8 text-sm uppercase hover:text-white hover:text-[16px] duration-300'>About</li>
                     </Link>
                     <Link href='/'>
-                        <li className='navbar_text'>Projects</li>
+                        <li className='mx-8 text-sm uppercase hover:text-white hover:text-[16px] duration-300'>Projects</li>
                     </Link>
                     <Link href='/'>
-                        <li className='navbar_text'>Heaven Sent</li>
+                        <li className='mx-8 text-sm uppercase hover:text-white hover:text-[16px] duration-300'>Heaven Sent</li>
                     </Link>
                     <Link href='/'>
-                        <li className='navbar_text'>Media</li>
+                        <li className='mx-8 text-sm uppercase hover:text-white hover:text-[16px] duration-300'>Media</li>
                     </Link>
                     <Link href='/'>
-                        <li className='navbar_text'>Contact</li>
+                        <li className='mx-8 text-sm uppercase hover:text-white hover:text-[16px] duration-300'>Contact</li>
                     </Link>
                 </ul>
                 <div onClick={handleNav} className='ml-4 cursor-pointer md:hidden'>
@@ -49,12 +49,10 @@ const Navbar = () => {
                             <AiOutlineClose />
                         </div>
                     </div>
-                    <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md-[90%] py-4'>Each consistent effort lays another brick towards the monument of greatness.</p> 
-                    </div>
+                    
                 </div>
                 <div>
-                    <ul className='py-4 flex-col'>
+                    <ul className='animate-text bg-gradient-to-l from-teal-500 via-purple-500 to-yellow-500 bg-clip-text text-transparent font-black border-b border-gray-300 my-4 flex-col'>
                         <Link href='/'>
                             <li className='py-4 text-sm uppercase hover:text-white ease-in duration-200'>About</li>
                         </Link>
@@ -71,8 +69,9 @@ const Navbar = () => {
                             <li className='py-4 text-sm uppercase hover:text-white ease-in duration-200'>Contact</li>
                         </Link>
                     </ul>
-                    <div className='pt-40'>
-                        <p className='uppercasae tracking-widest text-[#5651e5]'>Connect with me!</p>
+                    
+                    <div className='pt-10'>
+                        <p className='tracking-widest text-[#5651e5]'>Connect with me!</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300'>
                                 <FaGithub />
@@ -87,6 +86,9 @@ const Navbar = () => {
                                 <BsFillPersonLinesFill />
                             </div>
                         </div>
+                    </div>
+                    <div className='pt-10 border-b border-gray-300 my-4'>
+                        <p className='italic w-[85%] md-[90%] py-4'>Each consistent effort lays another brick towards the monument of greatness.</p> 
                     </div>
                 </div>
             </div>
