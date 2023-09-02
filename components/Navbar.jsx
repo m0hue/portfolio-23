@@ -73,16 +73,16 @@ const Navbar = () => {
                     <div className='pt-10'>
                         <p className='tracking-widest text-[#5651e5]'>Connect with me!</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in-out duration-300'>
                                 <FaGithub />
                             </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in-out duration-300'>
                                 <FaLinkedinIn />
                             </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in-out duration-300'>
                                 <AiOutlineMail />
                             </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-[1.15] ease-in-out duration-300'>
                                 <BsFillPersonLinesFill />
                             </div>
                         </div>
