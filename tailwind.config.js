@@ -9,23 +9,34 @@ module.exports = {
     extend: {
       animation: {
         text: 'text 6s ease infinite',
+        gradient: 'gradient 6s ease-in infinite',
       },
       keyframes: {
         text: {
           '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center',
+            'background-size': '400% 400%',
+            'background-position': '0% 0%'
           },
           '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'center center',
+            'background-size': '400% 400%',
+            'background-position': '100% 100%'
+          },
+        },
+        gradient: {
+          '0%, 100%': {
+              'background-size': '400% 400%',
+              'background-position': '0% 0%'
+          },
+          '50%': {
+              'background-size': '400% 400%',
+              'background-position': '100% 100%'
           },
         },
       },
       fontFamily: {
         'lostar': ['Lostar', 'sans-serif'],
         'magicretro': ['Magic Retro', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [],

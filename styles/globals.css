@@ -14,7 +14,7 @@
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#2f3846] tracking-wide
+    @apply bg-gray-700 text-white tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -39,5 +39,17 @@
 
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-[#ffffff]
+  }
+
+  .gradient-1 {
+    @apply bg-gradient-to-br from-teal-500 via-purple-500 to-yellow-500
+  }
+
+  .gradient-1-text {
+    @apply gradient-1 animate-text bg-clip-text text-transparent font-black
+  }
+
+  .gradient-1-bg {
+    @apply gradient-1 animate-gradient
   }
 }
