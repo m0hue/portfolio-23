@@ -11,6 +11,10 @@ module.exports = {
         text: 'text 6s ease infinite',
         gradient: 'gradient 6s ease-in infinite',
       },
+      cursor: {
+        default: 'url(../public/assets/cursor-default.png), default',
+        pointer: 'url(../public/assets/cursor-pointer.png), pointer',
+      },
       keyframes: {
         text: {
           '0%, 100%': {

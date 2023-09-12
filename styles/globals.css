@@ -2,54 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*:before,
+*:after {
+  @apply cursor-default
+}
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Lostar";
   src: url("../styles/fonts/Lostar.ttf");
 }
 @font-face {
   font-family: "Magic Retro";
-  src: url('../styles/fonts/Magic Retro.ttf');
+  src: url("../styles/fonts/Magic Retro.ttf");
 }
-
 
 @layer base {
   body {
-    @apply bg-gray-700 text-white tracking-wide
+    @apply bg-gray-700 text-white tracking-wide;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
 
   p {
-    @apply text-[14px]
+    @apply text-[14px];
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl
+    @apply text-4xl sm:text-5xl md:text-6xl;
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl;
   }
 
   li {
-    @apply cursor-pointer
-  }
-
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-[#ffffff]
+    @apply cursor-pointer;
   }
 
   .gradient-1 {
-    @apply bg-gradient-to-br from-teal-500 via-purple-500 to-yellow-500
+    @apply bg-gradient-to-br from-teal-500 via-purple-500 to-yellow-500;
   }
 
   .gradient-1-text {
-    @apply gradient-1 animate-text bg-clip-text text-transparent font-black
+    @apply gradient-1 animate-text bg-clip-text text-transparent font-black;
   }
 
   .gradient-1-bg {
-    @apply gradient-1 animate-gradient
+    @apply gradient-1 animate-gradient;
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-800 rounded-xl uppercase gradient-1-bg text-[#ffffff];
   }
 }
