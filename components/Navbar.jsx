@@ -41,7 +41,7 @@ const Navbar = () => {
 
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-[4rem] shadow-xl z-[100] bg-gray-700 ease-in duration-200"
@@ -51,11 +51,12 @@ const Navbar = () => {
       <div className="flex md:justify-center items-center w-full h-full px-2 2xl:px-16">
         <div>
           <ul className="gradient-1-text hidden md:flex">
-          <Link href="/">
+            <Link href="/">
               <li className="mx-8 text-sm uppercase text-[13px] hover:text-white hover:text-[16px] duration-300">
                 Home
               </li>
-            </Link><Link href="/#about">
+            </Link>
+            <Link href="/#about">
               <li className="mx-8 text-sm uppercase text-[13px] hover:text-white hover:text-[16px] duration-300">
                 About
               </li>
@@ -105,7 +106,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300"
               >
-                <AiOutlineClose />
+                <AiOutlineClose className="cursor-pointer" />
               </div>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
@@ -27,7 +28,7 @@ function Contact() {
               <div>
                 <h2 className="py-2">Mohammed Al-Musawi</h2>
                 <p>Jr. Developer | Graphic Designer</p>
-                <p className="py-4">Contact me, let's talk!</p>
+                <p className="py-4">Contact me, let&apos;s talk!</p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect with me</p>

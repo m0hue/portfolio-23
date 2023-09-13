@@ -63,6 +63,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-800 rounded-xl uppercase gradient-1-bg text-[#ffffff];
+    @apply cursor-pointer shadow-xl shadow-gray-800 rounded-xl uppercase gradient-1-bg text-[#ffffff];
   }
 }

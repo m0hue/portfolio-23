@@ -9,7 +9,7 @@ function Projects() {
         <p className="text-xl tracking-widest uppercase gradient-1-text">
           Projects
         </p>
-        <h2 className="py-4">What've you built?</h2>
+        <h2 className="py-4">What have I built?</h2>
         <div className="grid pt-8 md:grid-cols-2 gap-8">
           <ProjectItem
             title="Project 1"
