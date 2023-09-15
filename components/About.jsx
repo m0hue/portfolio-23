@@ -37,7 +37,7 @@ function About() {
           <div className="flex underline justify-between py-2 text-gray-400">
             <p>
               <a
-                className="cursor-pointer"
+                className="cursor-pointer hover:gradient-1-text hover:font-normal ease-in duration-300"
                 target="_blank"
                 href="https://heavensent.site/"
               >
@@ -46,7 +46,7 @@ function About() {
             </p>
             <p>
               <a
-                className="cursor-pointer"
+                className="cursor-pointer hover:gradient-1-text hover:font-normal ease-in duration-300"
                 target="_blank"
                 href="https://linkedin.com/in/m-almusawi/"
               >
@@ -55,7 +55,7 @@ function About() {
             </p>
             <p>
               <a
-                className="cursor-pointer"
+                className="cursor-pointer hover:gradient-1-text hover:font-normal ease-in duration-300"
                 target="_blank"
                 href="https://github.com/m0hue/"
               >

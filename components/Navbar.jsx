@@ -18,7 +18,7 @@ const Navbar = () => {
       router.asPath === "/project3" ||
       router.asPath === "/project4"
     ) {
-      setNavBg("transparent");
+      setNavBg("gray-700");
     } else {
       setNavBg("gray-700");
     }
