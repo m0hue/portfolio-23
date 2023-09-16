@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>M. Al-Musawi | Portfolio</title>
         <meta name="description" content="Mohammed Al-Musawi's Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/strawhat.webp" />
       </Head>
       <Navbar />
       <Main />
