@@ -34,16 +34,16 @@ function shinobi() {
               gist of what I was diving into with programming.
             </p>
             <p className="py-2">
-              The technologies used were Python and the PyGame library for
-              game development, and Photoshop for sprite creation. The game
-              mainly involves the use of object-oriented programming for most of
-              the code. Most of the code is simple and easy to understand, however,
+              The technologies used were Python and the PyGame library for game
+              development, and Photoshop for sprite creation. The game mainly
+              involves the use of object-oriented programming for most of the
+              code. Most of the code is simple and easy to understand, however,
               I may turn the idea of this game to a much more playable game on
               iOS.
             </p>
             <p className="py-2">
-              Overall, this project was one that I loved to create and
-              shed some light towards the joy that is game development.
+              Overall, this project was one that I loved to create and shed some
+              light towards the joy that is game development.
             </p>
             <a target="_blank" href="https://mohue.itch.io/shinobi-stars">
               <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
@@ -86,10 +86,12 @@ function shinobi() {
             </div>
             <div className="grid pt-8 md:grid-cols-2 gap-8">
               <Image
+                unoptimized
                 className="h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:scale-125 hover:cursor-zoom-in ease-in-out duration-500"
                 src={menuImg}
               />
               <Image
+                unoptimized
                 className="h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:scale-125 hover:cursor-zoom-in ease-in-out duration-500"
                 src={gameImg}
               />

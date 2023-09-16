@@ -31,22 +31,23 @@ function tetris() {
             <p className="py-2">
               The Tetris game is a game I developed while learning React. This
               was the first project I created with React while following
-              freeCodeCamp's lessons. The entire game interface and interactions are
-              crafted using React, which allowed me to harness the
-              technology effectively.
+              freeCodeCamp&apos;s lessons. The entire game interface and
+              interactions are crafted using React, which allowed me to harness
+              the technology effectively.
             </p>
             <p className="py-2">
-              The game offers a
-              responsive design with a user interface
-              designed for ease of use, featuring intuitive controls for an
-              enjoyable and accessible experience. The
-              codebase is structured for scalability, making it easy to extend
-              and maintain. The
-              project adheres to clean code structure and version control.
-            </p><p className="py-2">
-              This React project is not just a
-              game; it initiated my ability to create interactive web
-              applications. As of now, the only way to run the game is to install the repository and run it locally. I will eventually host this game on Firebase once I am more familiar with the technology.
+              The game offers a responsive design with a user interface designed
+              for ease of use, featuring intuitive controls for an enjoyable and
+              accessible experience. The codebase is structured for scalability,
+              making it easy to extend and maintain. The project adheres to
+              clean code structure and version control.
+            </p>
+            <p className="py-2">
+              This React project is not just a game; it initiated my ability to
+              create interactive web applications. As of now, the only way to
+              run the game is to install the repository and run it locally. I
+              will eventually host this game on Firebase once I am more familiar
+              with the technology.
             </p>
             <a
               target="_blank"
@@ -76,13 +77,14 @@ function tetris() {
             </div>
           </div>
           <div className="w-screen max-w-[1240px] h-screen flex flex-col items-center">
-            
             <div className="grid pt-8 md:grid-cols-2 gap-8">
               <Image
+                unoptimized
                 className="h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:scale-125 hover:cursor-zoom-in ease-in-out duration-500"
                 src={menuImg}
               />
               <Image
+                unoptimized
                 className="h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:scale-125 hover:cursor-zoom-in ease-in-out duration-500"
                 src={gameImg}
               />

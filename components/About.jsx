@@ -19,11 +19,11 @@ function About() {
           <p className="py-2">
             I am currently working towards a career in the software engineering
             field, but will be pursuing game development on my own time as
-            developing a world-class game that's played and loved by many is a
+            developing a world-class game that&apos;s played and loved by many is a
             dream of mine.
           </p>
           <p className="py-2">
-            I'm extremely enthusiastic about gaming, video production and
+            I&apos;m extremely enthusiastic about gaming, video production and
             photography, music, and most importantly, One Piece. These passions
             led me to develop the enjoyment for software and game development,
             graphic design, 3D animation, and playing the guitar and piano.
