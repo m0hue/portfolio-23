@@ -5,7 +5,7 @@ import gameImg from "../public/assets/projects/shinobi-stars-game.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-function project1() {
+function shinobi() {
   return (
     <div className="w-full mx-auto pb-16">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -106,4 +106,4 @@ function project1() {
   );
 }
 
-export default project1;
+export default shinobi;
