@@ -36,7 +36,7 @@ const Navbar = ()=>{
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_6__.useRouter)();
     (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{
         if (router.asPath === "/project1" || router.asPath === "/project2" || router.asPath === "/project3" || router.asPath === "/project4") {
-            setNavBg("transparent");
+            setNavBg("gray-700");
         } else {
             setNavBg("gray-700");
         }
@@ -137,7 +137,9 @@ const Navbar = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         onClick: handleNav,
                                         className: "rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-[1.15] ease-in duration-300",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_ai__WEBPACK_IMPORTED_MODULE_3__.AiOutlineClose, {})
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_ai__WEBPACK_IMPORTED_MODULE_3__.AiOutlineClose, {
+                                            className: "cursor-pointer"
+                                        })
                                     })
                                 ]
                             })
