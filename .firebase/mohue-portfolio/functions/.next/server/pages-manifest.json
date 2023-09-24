@@ -4,6 +4,8 @@
   "/": "pages/index.html",
   "/_document": "pages/_document.js",
   "/shinobi": "pages/shinobi.html",
+  "/pokedex": "pages/pokedex.html",
   "/tetris": "pages/tetris.html",
+  "/tictactoe": "pages/tictactoe.html",
   "/404": "pages/404.html"
 }
