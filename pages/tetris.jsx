@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import menuImg from "../public/assets/projects/tetris-menu.png";
 import gameImg from "../public/assets/projects/tetris-game.png";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import SkillItem from "@/components/SkillItem";
+import reactImg from "../public/assets/skills/react.png";
+import jsImg from "../public/assets/skills/javascript.png";
+import fbImg from "../public/assets/skills/firebase.png";
 
 function tetris() {
   return (
@@ -26,7 +29,7 @@ function tetris() {
       <div>
         <div className="max-w-[1240px] mx-auto p-2 grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
           <div className="col-span-2">
-            <p className="gradient-1-text">Shinobi Stars</p>
+            <p className="gradient-1-text">Tetris</p>
             <h2>Overview</h2>
             <p className="py-2">
               The Tetris game is a game I developed while learning React. This
@@ -40,14 +43,9 @@ function tetris() {
               for ease of use, featuring intuitive controls for an enjoyable and
               accessible experience. The codebase is structured for scalability,
               making it easy to extend and maintain. The project adheres to
-              clean code structure and version control.
-            </p>
-            <p className="py-2">
-              This React project is not just a game; it initiated my ability to
-              create interactive web applications. As of now, the only way to
-              run the game is to install the repository and run it locally. I
-              will eventually host this game on Firebase once I am more familiar
-              with the technology.
+              clean code structure and version control. This React project is
+              not just a game; it initiated my ability to create interactive web
+              applications.
             </p>
             <a
               target="_blank"
@@ -57,22 +55,19 @@ function tetris() {
                 Code
               </button>
             </a>
-            <button className="hidden px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
-              Code
-            </button>
+            <a target="_blank" href="https://mh-tetris.web.app">
+              <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
+                Demo
+              </button>
+            </a>
           </div>
-          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
+          <div className="col-span-4 md:col-span-1">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-4 md:grid-cols-1">
-                <p className="text-gray-300 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" />
-                  React
-                </p>
-                <p className="text-gray-300 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" />
-                  JavaScript
-                </p>
+              <div className="grid grid-cols-1 gap-8">
+                <SkillItem title="React" imgSrc={reactImg} />
+                <SkillItem title="JavaScript" imgSrc={jsImg} />
+                <SkillItem title="Firebase" imgSrc={fbImg} />
               </div>
             </div>
           </div>

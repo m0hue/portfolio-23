@@ -1,6 +1,8 @@
 import React from "react";
 import shinobiImg from "../public/assets/projects/shinobi-stars-game.png";
-import tetrisImg from '../public/assets/projects/tetris-game.png'
+import tetrisImg from "../public/assets/projects/tetris-game.png";
+import charImg from "../public/assets/projects/pokedex-char.png";
+import tttImg from "../public/assets/projects/ttt-game.png";
 import ProjectItem from "./ProjectItem";
 
 function Projects() {
@@ -23,6 +25,18 @@ function Projects() {
             subtitle="React | JavaScript"
             backgroundImg={tetrisImg}
             projectUrl="/tetris"
+          />
+          <ProjectItem
+            title="TicTacToe A.I."
+            subtitle="Python"
+            backgroundImg={tttImg}
+            projectUrl="/tictactoe"
+          />
+          <ProjectItem
+            title="Pokedex App"
+            subtitle="React | JavaScript"
+            backgroundImg={charImg}
+            projectUrl="/pokedex"
           />
         </div>
       </div>

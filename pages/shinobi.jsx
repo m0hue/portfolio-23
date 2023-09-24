@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import menuImg from "../public/assets/projects/shinobi-stars-menu.png";
 import gameImg from "../public/assets/projects/shinobi-stars-game.png";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import SkillItem from "@/components/SkillItem";
+import pythonImg from "../public/assets/skills/python.png";
+import pygameImg from "../public/assets/skills/pygame.png";
+import psImg from "../public/assets/skills/photoshop.png";
 
 function shinobi() {
   return (
@@ -54,22 +57,13 @@ function shinobi() {
               Code
             </button>
           </div>
-          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
+          <div className="col-span-4 md:col-span-1">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-4 md:grid-cols-1">
-                <p className="text-gray-300 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" />
-                  Python
-                </p>
-                <p className="text-gray-300 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" />
-                  PyGame
-                </p>
-                <p className="text-gray-300 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" />
-                  Photoshop
-                </p>
+              <div className="grid grid-cols-1 gap-8">
+                <SkillItem title="Python" imgSrc={pythonImg} />
+                <SkillItem title="PyGame" imgSrc={pygameImg} />
+                <SkillItem title="Photoshop" imgSrc={psImg} />
               </div>
             </div>
           </div>

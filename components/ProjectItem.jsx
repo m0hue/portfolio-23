@@ -6,7 +6,7 @@ function ProjectItem({ title, subtitle, backgroundImg, projectUrl }) {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:scale-105 hover:gradient-1-bg ease-in-out duration-500">
       <Image
-        className="rounded-xl flex-shrink-0 min-w-[100%] min-h-[100%] group-hover:opacity-10 ease-in-out duration-500"
+        className="rounded-xl flex-shrink-0 max-h-[290px] min-w-[100%] min-h-[100%] group-hover:opacity-10 ease-in-out duration-500"
         unoptimized
         src={backgroundImg}
         alt="/"

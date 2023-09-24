@@ -7,8 +7,7 @@ import reactImg from "../public/assets/skills/react.png";
 import jsImg from "../public/assets/skills/javascript.png";
 import cImg from "../public/assets/skills/c++.png";
 import tailwindImg from "../public/assets/skills/tailwind.png";
-import htmlImg from "../public/assets/skills/html.png";
-import cssImg from "../public/assets/skills/css.png";
+import fbImg from "../public/assets/skills/firebase.png";
 
 import psImg from "../public/assets/skills/photoshop.png";
 import isImg from "../public/assets/skills/illustrator.png";
@@ -30,13 +29,12 @@ function Skills() {
           <SkillItem title="Python" imgSrc={pythonImg} />
           <SkillItem title="Java" imgSrc={javaImg} />
           <SkillItem title="React" imgSrc={reactImg} />
+          <SkillItem title="Firebase" imgSrc={fbImg} />
           <SkillItem title="JavaScript" imgSrc={jsImg} />
           <SkillItem title="C++" imgSrc={cImg} />
           <SkillItem title="Tailwind" imgSrc={tailwindImg} />
-          <SkillItem title="HTML" imgSrc={htmlImg} />
-          <SkillItem title="CSS" imgSrc={cssImg} />
-          <h3 className="pb-8 italic font-normal">Graphic Design</h3>
         </div>
+        <h3 className="py-8 italic font-normal">Graphic Design</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <SkillItem title="Photoshop" imgSrc={psImg} />
           <SkillItem title="Illustrator" imgSrc={isImg} />
