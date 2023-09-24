@@ -31,7 +31,7 @@ function tictactoe() {
             <p className="gradient-1-text">TicTacToe vs A.I.</p>
             <h2>Overview</h2>
             <p className="py-2">
-              This project allows a user to play tic-tac-toe against an A.I. that always makes the best possible move. This project was created as part of Harvard's CS50-AI (Intro to Artificial Intelligence) class. Majority of the front-end was given by the course, but the entire back-end was developed by myself. 
+              This project allows a user to play tic-tac-toe against an A.I. that always makes the best possible move. This project was created as part of Harvard&apos;s CS50-AI (Intro to Artificial Intelligence) class. Majority of the front-end was given by the course, but the entire back-end was developed by myself. 
             </p>
             <p className="py-2">
               The technologies used were Python and the PyGame library. The A.I. employs the minimax algorithm to ensure optimal gameplay, making it a challenging opponent to beat. This simple project was one that initiated my learning into A.I., which is why I love it so much.

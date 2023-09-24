@@ -39,7 +39,7 @@ function pokedex() {
               fetch data about various Pokémon. 
             </p>
             <p className="py-2">
-              With a quick search, the app displays a Pokémon's name and ID, as well as its character sprite, type, and weaknesses. With this app,
+              With a quick search, the app displays a Pokémon&apos;s name and ID, as well as its character sprite, type, and weaknesses. With this app,
               you can search through a vast collection of Pokémon and their
               details, all neatly organized within a user-friendly Pokedex
               interface.
